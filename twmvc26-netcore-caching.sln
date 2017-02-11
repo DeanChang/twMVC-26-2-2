@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6B32F12A-1856-40DF-9577-A0DFA4626366}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{5A722A21-1E0B-44BE-B798-09EE7543BAF0}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "twmvc26-netcore-caching", "src\twmvc26-netcore-caching\twmvc26-netcore-caching.xproj", "{6FFFE009-294A-49C3-B541-9560AC57CD6D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FFFE009-294A-49C3-B541-9560AC57CD6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FFFE009-294A-49C3-B541-9560AC57CD6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FFFE009-294A-49C3-B541-9560AC57CD6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FFFE009-294A-49C3-B541-9560AC57CD6D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6FFFE009-294A-49C3-B541-9560AC57CD6D} = {6B32F12A-1856-40DF-9577-A0DFA4626366}
+	EndGlobalSection
+EndGlobal
